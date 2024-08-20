@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/card.css">
+    <link rel="stylesheet" href="Css/fast-order.css">
+    <link rel="stylesheet" href="Css/order.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="layout"></div>
+
+    <main>
+        <div class="order-tittle">Hızlı Sipariş</div>
+        <div class="circle-container">
+            <div class="circle-area">
+                <div class="circle">1</div>
+                <p>Sipariş Oluştur</p>
+            </div>
+            <div class="line"></div>
+            <div class="circle-area">
+                <div class="circle"
+                    style="border: 2px solid black; border-radius: 50%; color: black; background-color: white;">2</div>
+                <p>Sipariş Onayla</p>
+            </div>
+        </div>
+        <div class="table-container-order">
+            <table>
+                <thead>
+                    <th>Stok Kodu</th>
+                    <th>Oem</th>
+                    <th>Ürün Adı</th>
+                    <th>Marka</th>
+                    <th>Fiyat</th>
+                    <th>Resim</th>
+                    <th>Miktar</th>
+                    <th>Kaldır</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>R12345</td>
+                        <td>12345-34234</td>
+                        <td>Bilyeli Rulman</td>
+                        <td>SCANIA</td>
+                        <td>454,74 TL</td>
+                        <td><img src="" alt=""></td>
+                        <td>1</td>
+                        <td><img src="" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td>R12345</td>
+                        <td>12345-34234</td>
+                        <td>Bilyeli Rulman</td>
+                        <td>SCANIA</td>
+                        <td>454,74 TL</td>
+                        <td><img src="" alt=""></td>
+                        <td id="number">1</td>
+                        <!-- <td><button onclick="arttir()">+</button></td>
+    <td><button onclick="azalt()">-</button></td> -->
+                        <td><img src="" alt=""></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div class="add-product">
+            <input type="text" placeholder="Ürün Ekle">
+            <button>Devam et</button>
+        </div>
+        <div class="live-chat">
+            <img src="img/live-chat.png" alt="">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

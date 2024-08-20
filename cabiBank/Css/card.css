@@ -1,0 +1,192 @@
+
+.credit-card{
+    width: 50%;
+    height: 100%;
+}
+.credit-card-area{
+    position: relative;
+    width: 70%;
+    height: 37%;
+    overflow: hidden; 
+    border: 1px solid #ccc;
+    margin-top: 10%;
+    margin-left: 18%;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+.credit-card-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+#visa{
+    position: absolute;
+    top: 2%;
+    right: 7%;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+#card-number{
+    position: absolute;
+    top: 42%;
+    left: 20%;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 2px;
+}
+#card-number span {
+    margin-right: 20px;
+}
+#card-name{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+#card-date{
+    position: absolute;
+    top: 80%;
+    right: 7%;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.table-container {
+    margin-left: 18%;
+    margin-top: 4%;
+    width: 70%;
+    padding:  2% 0;
+    height: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: right;
+    position: relative;
+}
+
+th {
+    font-weight: bold;
+    font-size: 16px;
+}
+thead tr{
+   position: relative; 
+}
+thead tr::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%; 
+    height: 1px; 
+    background-color: #ddd;
+}
+tbody tr {
+    position: relative;
+}
+
+tbody tr::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%; 
+    height: 1px; 
+    background-color: #ddd; 
+}
+
+tbody tr:last-child::after {
+    content: none; 
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.form-container{
+    width: 35%;
+    height: 100%;
+
+}
+
+form{
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px, rgba(0, 0, 0, 0.1) 0px 6px 6px;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+    margin-right: 10%;
+} 
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.date-cvv-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 95%;
+}
+
+.date-cvv-group input[type="text"] {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.date-cvv-group input[type="text"]:last-child {
+    margin-right: 0; 
+}
+
+.date-cvv-group input[type="text"] {
+    width: 40%;
+}
+
+.payment-button {
+    background-color: #fca311;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+    opacity: 0.7;
+}

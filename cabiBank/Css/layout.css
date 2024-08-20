@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.category {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 7%;
+    background-color: #0b132b;
+    height: 100vh;
+    margin: 0;
+}
+
+.cat-logo {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cat-logo img {
+    width: 50px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid;
+    border: none;
+}
+
+.cat-btn {
+    cursor: pointer;
+    opacity: 0.7;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cat-btn:hover {
+    opacity: 1;
+}
+
+.cat-btn img {
+    width: 25px;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid;
+    border: none;
+}
+
+nav {
+    margin-left: 7%;
+    width: 93%;
+    background-color: #f9f9f9;
+    height: 6%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.nav-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+    opacity: 0.7;
+}
+
+.search-container {
+    width: 25%;
+    margin-left: 20px;
+
+}
+.search-container input {
+    width: 65%;
+    height: 30px;
+}
+.nav-group p{
+    font-size: 18px;
+}
+.nav-group .money{
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+}
+.nav-group .exit{
+    width: 12%;
+    height: 32px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.nav-group .nav-img{
+    width: 23px;
+    height: auto;
+    margin-right: 9px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.basket{
+    position: relative;
+    text-align: center;
+}
+.basket-noti{
+    position: absolute;
+    left: 17px;
+    top: 13px;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user img{
+    margin-left: 5px;
+    width: 10px;
+    height: 10px ;
+}
+.nav-img img{
+    width: 100%;   
+    overflow: hidden;
+    border: 1px solid;
+    border: none;
+}
+.live-chat{
+    cursor: pointer;
+    position: fixed;
+    top: 87%;
+    right: 3%;
+    width: 60px;
+    height: 60px;
+    background-color: #16c462;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.live-chat img{
+    height: 40px;
+    width: 40px;
+}

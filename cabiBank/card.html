@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/card.css">
+    <link rel="stylesheet" href="Css/fast-order.css">
+    <link rel="stylesheet" href="Css/order.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="layout"></div>
+    <main style="   height: 100%; display: flex;">
+        <div class="credit-card">
+            <div class="credit-card-area">
+                <img src="img/newCard.png" alt="">
+                <p id="visa">VISA</p>
+                <h2 id="card-number"><span>1234</span><span>5678</span><span>9012</span><span>3456</span></h2>
+                <p>Ad Soyad</p>
+                <p id="card-name">Emir Adıyaman</p>
+                <p>Tarih</p>
+                <p id="card-date">08/24</p>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Taksit</th>
+                            <th>Aylık Tutar</th>
+                            <th>Toplam Tutar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>100,00</td>
+                            <td>100,00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>50,55</td>
+                            <td>101,09</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>34,01</td>
+                            <td>102,04</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>17,49</td>
+                            <td>104,92</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>11,80</td>
+                            <td>106,18</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="form-container">
+            <form>
+                <div class="form-group">
+                    <label class="card-number-label">Kart Numarası</label>
+                    <input type="text" id="card-number-label" name="card-number">
+                </div>
+                <div class="form-group">
+                    <label class="name">Ad Soyad</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label class="expiry-date">Son Kullanım Tarihi</label>
+                    <div class="date-cvv-group">
+                        <input type="text" id="date-month" name="expiry-month" placeholder="MM">
+                        <input type="text" id="date-year" name="expiry-year" placeholder="YYYY">
+                        <input type="text" id="cvv" name="cvv" placeholder="CVV">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="installments">Taksit</label>
+                    <input type="text" id="installments" name="installments">
+                </div>
+                <button type="submit" class="payment-button"> Ödemeyi Tamamla</button>
+            </form>
+        </div>
+        <div class="live-chat">
+            <img src="img/live-chat.png" alt="">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
